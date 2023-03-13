@@ -9,7 +9,6 @@ package com.mycompany.eva1_18_rfc;
  * @author Doan Escobar
  */
 public class EVA1_18_SOBRECARGA_RFC {
-
     public static void main(String[] args) {
     String  rfc = generarRFC("CRISTIAN DOAN","TRUCIOS","ESCOBAR", 2000,02,14);
         System.out.println(rfc);
@@ -22,6 +21,8 @@ String apM= apMat.charAt(0)+ "";
 String nom= nombre.charAt(0)+"";
 String rfc = ap1 + ap2 + apM + nom + año + mes + dia +"";
 return rfc;
+
+
 }
 }
 
